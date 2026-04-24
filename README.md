@@ -1,116 +1,16 @@
-# REACT_JS_CLASS_1_INRODUCTION_AND_INSTALLATION
-# 🚀 React JS Class 1: Introduction & Installation
+# React + Vite
 
-## 📘 Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Welcome to the first class of React JS! In this session, you'll learn the basics of React, understand why it's widely used, and set up your development environment to start building modern web applications.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🤔 What is React?
+## React Compiler
 
-React is a JavaScript library developed by Facebook for building fast and interactive user interfaces, especially for single-page applications.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### 🌟 Key Features:
+## Expanding the ESLint configuration
 
-* ⚡ Component-Based Architecture
-* 🔄 Virtual DOM for efficient updates
-* 🧩 Reusable components
-* 📊 One-way data binding
-* 🛠 Strong community support
-
----
-
-## 🎯 Why Use React?
-
-* Improves performance with Virtual DOM
-* Makes UI development modular and maintainable
-* Huge ecosystem and community
-* Used by top companies worldwide
-
----
-
-## 🛠 Prerequisites
-
-Before installing React, make sure you have:
-
-* 📦 Node.js (LTS version recommended)
-* 📦 npm (comes with Node.js) or yarn
-* 💻 Code editor (VS Code recommended)
-
----
-
-## ⚙️ Installation Steps
-
-### 1️⃣ Install Node.js
-
-Download and install Node.js from the official website.
-
-Check installation:
-
-```bash
-node -v
-npm -v
-```
-
----
-
-### 2️⃣ Create React App
-
-Use the following command to create a new React project:
-
-```bash
-npx create-react-app my-app
-```
-
----
-
-### 3️⃣ Navigate to Project Folder
-
-```bash
-cd my-app
-```
-
----
-
-### 4️⃣ Start Development Server
-
-```bash
-npm start
-```
-
-Your app will run on:
-👉 http://localhost:3000
-
----
-
-## 📁 Project Structure Overview
-
-* `src/` → Main source code
-* `public/` → Static files
-* `package.json` → Project dependencies & scripts
-
----
-
-## 🧠 What You Learned
-
-* Introduction to React
-* Benefits of using React
-* Environment setup
-* Creating and running a React app
-
----
-
-## 🚀 Next Step
-
-In the next class, we’ll explore:
-👉 JSX & Components
-
----
-
-## 📌 Conclusion
-
-You are now ready with your React setup! 🎉 Start experimenting and building your first components.
-
-Happy Coding! 💻🔥
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
